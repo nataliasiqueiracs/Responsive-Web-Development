@@ -1,0 +1,48 @@
+#EXEMPLO DE IMPLEMENTAÇÃO EM JS
+
+const fullName = "Natalia Scigliano"
+const amount = 1200.55
+const valid = true
+const list = ["melancia", "maçã", "banana", "caqui"]
+
+const obj = {
+    name: "Natalia Scigliano",
+    fullValue: 1200.55,
+    status: true,
+}
+
+if (amount > 1000) {
+    console.log("Tudo certo!")
+} else {
+    console.log("Algo de errado não está certo.")
+}
+
+if ({} === {}) {
+    console.log("Objeto: Deu certo!")
+} else {
+    console.log("Objeto: Deu errado!")
+}
+
+for (let index = 0; index < list.length; index++) {
+    const element = list[index];
+}
+
+let count = 0
+while(count < 4) {
+    console.log(list[count])
+    count++
+}
+
+list.map((listaFrutas) => {
+    console.log(listaFrutas)
+})
+
+function soma(num1, num2) {
+    console.log(num1 + num2)
+}
+
+soma(10,40)
+
+const soma2 = (num1,num2) => console.log(num1 + num2)
+
+soma2(20,40)
