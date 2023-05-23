@@ -1,2 +1,5 @@
-# Responsive-Web-Development
-Aula da FIAP voltada a utilização de ferramentas de Front-End como HTML e CSS, e também que se integram ao Back-End, como JavaScript.
+# Primeiro Semestre
+
+> Status da matéria: 1/2
+
+Para rodar esse projeto em sua máquina, utilize o VS Code.
